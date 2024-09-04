@@ -1,0 +1,45 @@
+NLP(Natural Language Programming)
+Its based upon NLTK( Natural language tool kit)
+ Command
+ Import nltk
+Nltk.download(‘all’)
+It will come true at the end 
+Punkt=it do function 
+Stop word= specific words or most commonly used words
+ 
+#Common four statements to import flask
+from.summarizer_build.import.*
+from.flask.import.flask,.render_template,. request
+app.=.flask(_name_)
+app.secret_key.=.’forsummary’
+ 
+
+#For routing(navigation)
+@app.route(‘/‘,methods=[‘GET’])
+def index():
+            return render_template(‘index.html’)
+
+#Run the server(connect the browser and code)
+If_name==‘main_’:
+     app.run(debug= False,host=‘0.0.0.0’)
+
+File structure
+Static(frontend connectivity)
+* css
+* Fonts
+* images
+* Js
+Templates(frontend connectivity)
+Html files  like 
+* about.html
+* Index.html
+* Result.html
+* Textsummary.html
+app.py(backend connectivity)
+* build.sh
+* Word_synonyms.py
+
+Pickle file(pkl)
+ It is used for system understandable that should be in raw data we cann’t see that 
+ Eg. 1.lang__model.pkl
+        2.lang__transformer.pkl
